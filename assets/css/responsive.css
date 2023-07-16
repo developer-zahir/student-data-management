@@ -9,9 +9,10 @@
 @media (max-width: 1000px) {
   .container {
     max-width: 100% !important;
+    padding: 0;
   }
   .row {
-    margin: 0;
+    margin: 10px  0 !important;
   }
   .student_list_section {
     margin-top: 30px;
