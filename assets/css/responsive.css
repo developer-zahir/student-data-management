@@ -17,4 +17,12 @@
   .student_list_section {
     margin-top: 30px;
   }
+
+}
+
+
+@media (max-width: 720px) {
+  .image_preview_box .image_delete_button {
+    display: none;
+  }
 }
