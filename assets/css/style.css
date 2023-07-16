@@ -9,15 +9,14 @@ td {
 .image_preview_box .image_delete_button {
   background-color: red;
   color: white;
-  width: 35px;
-  height: 35px;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
   display: block;
   text-align: center;
-  font-size: 25px;
-  line-height: 25px;
+  font-size: 24px;
   position: absolute;
   border-radius: 3px;
-  z-index: 99;
   opacity: 0;
   visibility: hidden;
   cursor: pointer;
