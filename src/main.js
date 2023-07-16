@@ -68,6 +68,8 @@ let profile_image_url;
 profile_image.oninput = (e) => {
   profile_image_url = profile_image.value;
   profile_image.nextElementSibling.children[0].setAttribute("src", profile_image_url);
+  profile_image.nextElementSibling.style.display = 'block'
+
 };
 
 const reset = document.querySelector(".reset");
@@ -78,6 +80,7 @@ reset.onclick = () => {
 profile_image.nextElementSibling.children[1].onclick = (e) => {
   profile_image.value = "";
   profile_image.nextElementSibling.children[0].setAttribute("src", "");
+  profile_image.nextElementSibling.style.display = 'none'
 };
 
 // delete student data --------------

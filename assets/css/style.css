@@ -25,6 +25,7 @@ td {
   right: 0;
   bottom: 0;
   margin: auto;
+  z-index: 3;
 }
 .image_delete_button:hover {
   background: #b31a1a !important;
