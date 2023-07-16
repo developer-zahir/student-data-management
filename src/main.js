@@ -75,7 +75,7 @@ reset.onclick = () => {
   profile_image.nextElementSibling.children[0].setAttribute("src", "");
 };
 
-profile_image.nextElementSibling.onclick = (e) => {
+profile_image.nextElementSibling.children[1].onclick = (e) => {
   profile_image.value = "";
   profile_image.nextElementSibling.children[0].setAttribute("src", "");
 };
