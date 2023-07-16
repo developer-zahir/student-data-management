@@ -1,0 +1,19 @@
+@media (max-width: 1199.98px) {
+  .btn_group {
+    flex-wrap: wrap;
+  }
+  .btn_group button {
+    width: 100% !important;
+  }
+}
+@media (max-width: 1000px) {
+  .container {
+    max-width: 100% !important;
+  }
+  .row {
+    margin: 0;
+  }
+  .student_list_section {
+    margin-top: 30px;
+  }
+}

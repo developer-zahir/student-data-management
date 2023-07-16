@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="https://avatars.githubusercontent.com/u/82234171?v=4" type="image/x-icon" />
+    <title>Day 11 || Part 2 ( form submite practice with image and image preview)</title>
+    <!-- all css files -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="row justify-content-center my-4">
+          <div class="col-lg-4">
+            <div class="form-box card">
+              <div class="card-header bg-gradient bg-success text-white">
+                <h1 class="h3 mt-1">Add student info.</h1>
+                <p class="small text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quibusdam?</p>
+              </div>
+              <div class="card-body">
+                <!-- error message start -->
+                <div class="msg"></div>
+                <!-- error message end -->
+
+                <!-- user form start  -->
+                <form id="user_form">
+                  <div class="my-3">
+                    <label for="name">Name</label>
+                    <input id="name" name="name" type="text" class="form-control" />
+                  </div>
+                  <div class="my-3">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="text" class="form-control" />
+                  </div>
+                  <div class="my-3">
+                    <label for="phone">Phone</label>
+                    <input id="phone" name="phone" type="phone" class="form-control" />
+                  </div>
+                  <div class="my-3">
+                    <label for="profile_image">Image URL</label>
+                    <input type="text" name="profile_image" id="profile_image" class="form-control" />
+
+                    <div class="image_preview_box">
+                      <img class="img-fluid mt-3" src="./assets/img/1.png" alt="" />
+                      <span class="image_delete_button" title="remove photo">x</span>
+                    </div>
+                  </div>
+                  <div class="my-3 d-flex gap-3 btn_group">
+                    <button type="submit" class="btn btn-success px-5 w-50">Submit</button>
+                    <button type="reset" class="btn btn-danger px-5 w-50 reset">Reset</button>
+                  </div>
+                </form>
+                <!-- user form end -->
+              </div>
+              <!-- card footer start  -->
+              <div class="card-footer">
+                <p class="small text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quibusdam?</p>
+              </div>
+              <!-- card footer end -->
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="student_list_section">
+              <table class="table table-striped table-borderless table-hover border">
+                <thead class="table-success sticky-top">
+                  <tr>
+                    <th>ID</th>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone number</th>
+                    <th>-</th>
+                  </tr>
+                </thead>
+                <tbody class="students_list_container"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- all js files -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <script src="./src/data.js"></script>
+    <script src="./src/functions.js"></script>
+    <script src="./src/main.js"></script>
+  </body>
+</html>
