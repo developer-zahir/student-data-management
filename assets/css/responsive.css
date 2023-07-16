@@ -25,4 +25,7 @@
   .image_preview_box .image_delete_button {
     display: none;
   }
+  table.table{
+    width: 800px !important;
+}
 }
