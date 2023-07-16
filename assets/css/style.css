@@ -4,6 +4,7 @@ td {
 }
 .image_preview_box {
   position: relative;
+  overflow: hidden;
 }
 .image_preview_box .image_delete_button {
   background-color: red;
@@ -18,7 +19,6 @@ td {
   border-radius: 3px;
   z-index: 99;
   opacity: 0;
-  visibility: hidden;
   visibility: hidden;
   cursor: pointer;
   top: 0;
