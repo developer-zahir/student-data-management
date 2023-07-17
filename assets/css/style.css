@@ -6,6 +6,9 @@ td {
   position: relative;
   overflow: hidden;
 }
+.image_preview_box img{
+  border: 1px solid #ddd;
+}
 .image_preview_box .image_delete_button {
   background-color: red;
   color: white;
@@ -31,10 +34,12 @@ td {
   background: #b31a1a !important;
   opacity: 1;
   visibility: visible;
+
 }
 .image_preview_box img:hover ~ .image_delete_button {
   opacity: 1;
   visibility: visible;
+
 }
 
 /* delete student data button  */
