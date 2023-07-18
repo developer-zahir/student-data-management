@@ -47,7 +47,10 @@ td {
   cursor: pointer;
   transition: 0.4s;
   border-radius: 3px;
+  padding: 8px 11px !important;
 }
+
+
 .delete-student-data:hover {
   background: #b31a1a !important;
 }
